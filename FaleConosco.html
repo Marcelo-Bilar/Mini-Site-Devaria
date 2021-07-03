@@ -4,11 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Olá, Mundo!</title>
+        <title>Professores</title>
     </head>
     <body>
         <header>
-            <h1>Olá, Mundo! Essa minha primeira página WEB!</h1>
+            <h1>Professores</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -18,8 +18,21 @@
             </nav>
         </header>
         <main>
+            <h2>Para Mandar uma mensagem para a página preencha os campos abaixo e clique em enviar:</h2>
             <section>
-                    <img src="Fotos/Home-Branco.png" width="300" alt="Home">
+                <form action="index.html">
+                    <p>
+                        <label>Nome: </label><input type="text" name="Nome" />
+                    </p>
+                    <p>
+                        <label>E-mail: </label><input type="text" name="Email" />
+                    </p>
+                    <p>
+                        <label>Comentário: </label>
+                        <textarea name="Comentario" cols="50" rows="4"></textarea>
+                    </p>
+                    
+                </form>
             </section>
         </main>
         <footer>
@@ -29,4 +42,3 @@
             </section>
         </footer>
     </body>
-</html>
