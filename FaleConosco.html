@@ -22,15 +22,29 @@
             <section>
                 <form action="index.html">
                     <p>
-                        <label>Nome: </label><input type="text" name="Nome" />
+                        <label>Nome: </label><input type="text" name="Nome" maxlength="70"/>
                     </p>
                     <p>
-                        <label>E-mail: </label><input type="text" name="Email" />
+                        <label>E-mail: </label><input type="text" name="Email" maxlength="150" />
                     </p>
                     <p>
                         <label>Comentário: </label>
                         <textarea name="Comentario" cols="50" rows="4"></textarea>
-                    </p>            
+                    </p>  
+                    <p>
+                        <label>Sexo:</label>
+                        <input type="radio" name="Sexo" /> <label>Feminino</label>
+                        <input type="radio" name="Sexo" /> <label>Masculino</label>
+                    </p>          
+                    <p>
+                        <label>Aonde me conheceu? </label>
+                        <select name="Conheceu">
+                            <option selected>GitHub</option>
+                            <option>Instagram</option>
+                            <option>Facebook</option>
+                            <option>Linkedin</option>
+                        </select>
+                    </p>
                 </form>
             </section>
         </main>
