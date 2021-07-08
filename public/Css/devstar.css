@@ -1,0 +1,48 @@
+/* Estilo da página devstars */
+
+table.tabela1,
+table.tabela2 {
+    border: 1px solid white;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+table.tabela1 thead th,
+table.tabela2 thead th {
+    border: 1px solid white;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+table.tabela1 tbody tr td,
+table.tabela2 tbody tr td {
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    table.tabela1,
+    table.tabela2 {
+    width: 50%;
+    height: 50%;
+    }
+
+    table.tabela1 thead th,
+    table.tabela2 thead th {
+    padding: 30px;
+    margin: 15px;
+    }
+
+    table.tabela1 tbody tr td,
+    table.tabela2 tbody tr td {
+        padding: 30px;
+        margin: 30px;
+    }
+
+}
